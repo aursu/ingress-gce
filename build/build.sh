@@ -36,6 +36,7 @@ if [ -z "${GIT_COMMIT}" ]; then
     exit 1
 fi
 
+export GOFLAGS=-buildvcs=false
 export CGO_ENABLED=0
 export GOARCH="${ARCH}"
 export GOOS="${OS}"
