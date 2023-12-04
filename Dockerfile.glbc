@@ -15,5 +15,7 @@
 # This image requires ca-certificate, which is pre-installed in distroless.
 FROM gcr.io/distroless/static:latest
 
+LABEL org.opencontainers.image.source https://github.com/aursu/ingress-gce
+
 ADD bin/ARG_ARCH/ARG_BIN /ARG_BIN
 ENTRYPOINT ["/ARG_BIN"]
