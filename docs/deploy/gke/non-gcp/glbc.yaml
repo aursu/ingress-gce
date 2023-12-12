@@ -68,6 +68,7 @@ spec:
         - --enable-frontend-config
         - --enable-v2-frontend-namer
         - --enable-finalizer-add
+        - --enable-finalizer-remove
       volumes:
       - name: google-cloud-key
         secret:
