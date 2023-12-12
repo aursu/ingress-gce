@@ -65,6 +65,7 @@ spec:
         - --gce-ratelimit=alpha.HealthChecks.Get,qps,1.8,1
         - --enable-non-gcp-mode=true
         - --enable-dual-stack-neg
+        - --enable-label-propagation
         - --enable-frontend-config
         - --enable-v2-frontend-namer
         - --enable-finalizer-add
