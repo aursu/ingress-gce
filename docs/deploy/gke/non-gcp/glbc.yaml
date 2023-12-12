@@ -67,6 +67,7 @@ spec:
         - --enable-dual-stack-neg
         - --enable-frontend-config
         - --enable-v2-frontend-namer
+        - --enable-finalizer-add
       volumes:
       - name: google-cloud-key
         secret:
