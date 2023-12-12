@@ -64,8 +64,9 @@ spec:
         - --gce-ratelimit=ga.HealthChecks.Get,qps,1.8,1
         - --gce-ratelimit=alpha.HealthChecks.Get,qps,1.8,1
         - --enable-non-gcp-mode=true
-        - --enable-frontend-config
         - --enable-dual-stack-neg
+        - --enable-frontend-config
+        - --enable-v2-frontend-namer
       volumes:
       - name: google-cloud-key
         secret:
